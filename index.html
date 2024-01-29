@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a99c450f2f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <header id="encabezado">
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+            <h1 class="title">Titulo</h1>
+            <nav>
+                <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+                <ul class="menu">
+                    <li>INICIO</li>
+                    <li>ACERCA DE</li>
+                    <li>TRABAJOS</li>
+                    <li>SERVICIOS</li>
+                    <li>CONTACTO</li>
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+    <main id="seccion-principal">
+        <section class="section-1">
+            <div class="acerca-de">
+                <h2>"Acerca de mi"</h2>
+                <p>"¡Bienvenido a mi página! Aquí, aprenderás más sobre mí."</p>
+                <p2>"Me llamo Tere, nací en Buenos Aires y vivo en Caballito. Me gusta el helado y salir a pasear en días de sol.
+                     Me encantaría aprender a programar para poder ayudar a las personas a mostrar lo que hacen."</p2>
+            </div>
+            <div class="acerca-imagen">
+                <img src="img/1.png" alt="Imagen Personal"/>
+            </div>
+        </section>
+        <section class="section-2">
+            <img src="img/comarca.jpg" alt="imagen de comarca"/>
+        </section>
+        
+    <div class="InfoAdicional">
+        <h3>Experiencias</h3>
+    <div class="Listado">
+        <div class="Caja 1">
+            <img src="img/Doctor.jpg" alt="Trabajo Previo">
+            <h3>Titulo 1</h3>
+            <p>Detalles de Trabajo Previo</p>
+            <h4>Leer mas</h4>
+        </div>
+        <div class="Caja 2">
+            <img src="img/bombero.jpg" alt="Trabajo Actual">
+            <h3>Titulo 2</h3>
+            <p>Detalles de Trabajo Actual</p>
+            <h4>Leer mas</h4>
+        </div>
+        <div class="Caja 3">
+            <img src="img/astronauta.jpg" alt="Trabajo Futuro">
+            <h3>Titulo 3</h3>
+            <p>Detalles de Trabajo Futuro</p>
+            <h4>Leer mas</h4>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <div id="footer">
+            <h3 class="TituloF">Contacto</h3>
+            <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+            <ul>
+                <li>Final</li>
+                <li>Nueva Pagina</li>
+                <li>Otros Servicios</li>
+                <li>Plataformas</li>
+            </ul>
+        </div>
+    </main>
+
+
+    <footer class="form-header">
+        <h1>Contacto</h1>
+        <p><em>¡Esperamos tu consulta!</em></p>
+  
+        <form action="" method="get" class="formulario" id="form">
+          <div class="form-row">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" type="text"/>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+            </div>
+  
+            <div class="form-row">
+              <button>Enviar</button>
+            </div>
+  
+            <p class="alertas" id="alertas"></p>
+  
+        </form>
+      </footer>
+  
+      <script src="script.js"></script>
+  
+
+</body>
+</html>
