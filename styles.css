@@ -380,3 +380,10 @@ nav ul {
 
  }
 }
+
+.greeting {
+  color: blue;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+}
